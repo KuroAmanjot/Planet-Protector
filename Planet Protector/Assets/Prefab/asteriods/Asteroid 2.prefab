@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 24070427968379693}
   - component: {fileID: 24070427968379694}
   - component: {fileID: 24070427968379683}
+  - component: {fileID: 6061351971883052158}
   m_Layer: 0
   m_Name: Asteroid 2
   m_TagString: Metriod
@@ -148,3 +149,16 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 1
   m_Constraints: 0
+--- !u!114 &6061351971883052158
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 24070427968379695}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5482e0701cde0b94d93cfa2aac0f22f4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  explosion: {fileID: 100002, guid: cafecd3fc3b761c45bb1553f35cf5c96, type: 3}
