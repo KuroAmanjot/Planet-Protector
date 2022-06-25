@@ -1,0 +1,247 @@
+Using pre-set license
+Built from '2021.2/staging' branch; Version is '2021.2.17f1 (efb8f635e7b1) revision 15710454'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'en' Physical Memory: 8141 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\unity\2021.2.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker5
+-projectPath
+D:/unity project/Planet project/Planet Protector
+-logFile
+Logs/AssetImportWorker5.log
+-srvPort
+61179
+Successfully changed project path to: D:/unity project/Planet project/Planet Protector
+D:/unity project/Planet project/Planet Protector
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 161.86 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.17f1 (efb8f635e7b1)
+[Subsystems] Discovering subsystems at path D:/unity/2021.2.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/unity project/Planet project/Planet Protector/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1660 (ID=0x2184)
+    Vendor:   NVIDIA
+    VRAM:     5991 MB
+    Driver:   30.0.15.1215
+Initialize mono
+Mono path[0] = 'D:/unity/2021.2.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/2021.2.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/2021.2.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56968
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/unity/2021.2.17f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/2021.2.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/2021.2.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.004241 seconds.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 159.77 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.233 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2233ms)
+		BeginReloadAssembly (703ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (703ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (195ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (36ms)
+			SetupLoadedEditorAssemblies (515ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (140ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (160ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (136ms)
+				ProcessInitializeOnLoadMethodAttributes (77ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.102335 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\unity project\Planet project\Planet Protector\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\unity project\Planet project\Planet Protector\Library\PackageCache\com.unity.visualscripting@1.7.6\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 142.91 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  4.740 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4741ms)
+		BeginReloadAssembly (353ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (25ms)
+		EndReloadAssembly (4246ms)
+			LoadAssemblies (2487ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (356ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (85ms)
+			SetupLoadedEditorAssemblies (1468ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (143ms)
+				BeforeProcessingInitializeOnLoad (140ms)
+				ProcessInitializeOnLoadAttributes (1038ms)
+				ProcessInitializeOnLoadMethodAttributes (127ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (10ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.19 seconds
+Refreshing native plugins compatible for Editor in 1.09 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5385 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 54 unused Assets / (1.2 MB). Loaded Objects now: 5830.
+Memory consumption went from 210.7 MB to 209.5 MB.
+Total: 6.230900 ms (FindLiveObjects: 0.679900 ms CreateObjectMapping: 0.185600 ms MarkObjects: 4.710400 ms  DeleteObjects: 0.653100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10403.987562 seconds.
+  path: Assets/2D Space Kit/Particles (Sprites)/Burst.png
+  artifactKey: Guid(83bb9b768d3a6734aae0bfb712f96018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Particles (Sprites)/Burst.png using Guid(83bb9b768d3a6734aae0bfb712f96018) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24bc6066568d997e302c31c6f071e8ef') in 0.311410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/2D Space Kit/Particles (Sprites)/Shield Bubble.png
+  artifactKey: Guid(1932640e6cf290044a4ee6967192234d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Particles (Sprites)/Shield Bubble.png using Guid(1932640e6cf290044a4ee6967192234d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b63fdfc173d50aaab0fd099560fcc32c') in 0.065117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.623634 seconds.
+  path: Assets/2D Space Kit/Particles (Sprites)/Materials/Flare Animorphic.mat
+  artifactKey: Guid(7f3b305abdd7aa1419d31a9a9d5ba2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Particles (Sprites)/Materials/Flare Animorphic.mat using Guid(7f3b305abdd7aa1419d31a9a9d5ba2c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90a27987a994f68bfa489b21570f0c6') in 0.252206 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 2.mat
+  artifactKey: Guid(b4c2576f22771bb49a502bb2b75ba1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Particles (Sprites)/Materials/Smoke Trail 2.mat using Guid(b4c2576f22771bb49a502bb2b75ba1b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc9421ec8981a8d3eb2dda46fad05329') in 0.042999 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 40.956492 seconds.
+  path: Assets/2D Space Kit/Backgrounds/Red Nebula 2048/background4.jpg
+  artifactKey: Guid(fb594d11fe97b1f49950198315d5ccef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Backgrounds/Red Nebula 2048/background4.jpg using Guid(fb594d11fe97b1f49950198315d5ccef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0d46d89bf7748877055d0466780410') in 0.755117 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.093493 seconds.
+  path: Assets/2D Space Kit/Turrets/Turret Medium 1.png
+  artifactKey: Guid(b618a4750ef81c94c8bcde0fae940691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Turrets/Turret Medium 1.png using Guid(b618a4750ef81c94c8bcde0fae940691) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2234cae86515ce8642b7e663caa82473') in 0.044108 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/2D Space Kit/Turrets/Turret Small 1.png
+  artifactKey: Guid(c8a99bdd0f08b8c47af88824e592097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Turrets/Turret Small 1.png using Guid(c8a99bdd0f08b8c47af88824e592097b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f4e97c509f0a77374aefc1904d56cac') in 0.028414 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/2D Space Kit/Turrets/Turret Small 4.png
+  artifactKey: Guid(b520897860de45a489bea7656ba71eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Turrets/Turret Small 4.png using Guid(b520897860de45a489bea7656ba71eef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77ebc4e4afa2afeba9f5a1e2d6c24537') in 0.023498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.346645 seconds.
+  path: Assets/2D Space Kit/Ships and Stations/Alien 4.png
+  artifactKey: Guid(83f530308b93c554f91af6d5a8ce5607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Ships and Stations/Alien 4.png using Guid(83f530308b93c554f91af6d5a8ce5607) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '663ec76b4a9d71fdb429a9f44b7cf53a') in 0.028120 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000059 seconds.
+  path: Assets/2D Space Kit/Ships and Stations/Frigate 2.png
+  artifactKey: Guid(a39f5d360eb38284fb54a62672b5ec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Ships and Stations/Frigate 2.png using Guid(a39f5d360eb38284fb54a62672b5ec9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '008a1f2b85ba99efa028378d75222c46') in 0.034842 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/2D Space Kit/Ships and Stations/Cruiser 1.png
+  artifactKey: Guid(d01cff5f204294b49bb86fcf5a2aeec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Ships and Stations/Cruiser 1.png using Guid(d01cff5f204294b49bb86fcf5a2aeec0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66812d4e0b5a6691a43da1b1f78c5192') in 0.039931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/2D Space Kit/Ships and Stations/Fighter 2.png
+  artifactKey: Guid(394b5b0edcab9644e883ef25893924dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Ships and Stations/Fighter 2.png using Guid(394b5b0edcab9644e883ef25893924dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a621bf175c107657d5357578a8a6b3a') in 0.027190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/2D Space Kit/Ships and Stations/Fighter 1.png
+  artifactKey: Guid(8d5f697c999643441bb417d834c597de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/2D Space Kit/Ships and Stations/Fighter 1.png using Guid(8d5f697c999643441bb417d834c597de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa2ef575c1b7af07b2b0531b1b8e55e7') in 0.028007 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

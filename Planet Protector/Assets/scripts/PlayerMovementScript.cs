@@ -19,6 +19,8 @@ public class PlayerMovementScript : MonoBehaviour
     public Transform bulletPoint;
     public GameObject bulletPrefab ;
 
+    public GameObject muzzleFlash ; 
+
     // Start is called before the first frame update
 
     private void Awake()
@@ -45,8 +47,10 @@ public class PlayerMovementScript : MonoBehaviour
         moveVertical = Input.GetAxisRaw("Vertical");
         if (Input.GetMouseButtonDown(0))
         {
+            GameObject muzzle = Instantiate(muzzleFlash, bulletPoint.position , Quaternion.identity);
             shoot();
             rb2D.AddRelativeForce(new Vector2(0f, -1f), ForceMode2D.Impulse);
+            Destroy(muzzle , .5f ); 
 
 
         }
@@ -73,6 +77,7 @@ public class PlayerMovementScript : MonoBehaviour
         GameObject bullet = Instantiate(bulletPrefab , bulletPoint.position , bulletPoint.rotation );
         Rigidbody2D rbBullet = bullet.GetComponent<Rigidbody2D>();
         rbBullet.AddForce(bulletPoint.up*bulletSpeed , ForceMode2D.Impulse);
+
     }
 
 }
