@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class AsteriodDestroy : MonoBehaviour
 {
-
-    public isAliveHealth health;  
+     
+     
     public GameObject explosion ;
     void Update()
     {
@@ -19,8 +19,8 @@ public class AsteriodDestroy : MonoBehaviour
         {
             Destroy(gameObject);
             GameObject effectExplode = Instantiate(explosion , transform.position, Quaternion.identity);
-            Destroy(effectExplode, 1f ); 
-
+            Destroy(effectExplode, 1f );
+            Score.scoreTotal += 5; 
         }
         if (collision.gameObject.tag == " player")
         {
