@@ -16,12 +16,9 @@ public class HealthSystem : MonoBehaviour
     public Image[] hearts;
     public int lifelines;
     public int heartContainer;    
-    private bool isAlive = true; 
-    // Start is called before the first frame update
-    void Start()
-    {
-     
-    }
+    private bool isAlive = true;
+        // Start is called before the first frame update
+        public isAliveHealth playerHealth ; 
         
 
         // Update is called once per frame
@@ -62,7 +59,7 @@ public class HealthSystem : MonoBehaviour
         if (isAlive == false )
         {
                 // dead script 
-
+            playerHealth.retryMenu.SetActive(true); 
             Destroy(gameObject); 
             
             print("planet died"); 
