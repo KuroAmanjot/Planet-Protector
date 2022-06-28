@@ -7,7 +7,7 @@ public class AsteriodSpawner : MonoBehaviour
     //private int waveNumber = 0;
    // public int enemiesAmount = 0;
    // public GameObject zombie;
-    public Camera cam;
+    public Camera mainCamera;
     private bool startSpawning = true ;
     public GameObject[] asteriodPrefabs ;
 
@@ -18,7 +18,7 @@ public class AsteriodSpawner : MonoBehaviour
     {
         
        // startSpawning = true ;
-        cam = Camera.main;
+        mainCamera = Camera.main;
         //enemiesAmount = 0;
         InvokeRepeating("Spawning", spawnTimer ,delayTimer ); 
         
@@ -48,13 +48,13 @@ public class AsteriodSpawner : MonoBehaviour
 
     private void Spawning()
     {
-        float height = cam.orthographicSize + 1f;  // now they spawn just outside
-        float width = cam.orthographicSize * cam.aspect + 1;
+        float height = mainCamera.orthographicSize + 1f;  // now they spawn just outside
+        float width = mainCamera.orthographicSize * mainCamera.aspect + 1;
         int index = Random.Range(0, asteriodPrefabs.Length);
 
 
 
-        Instantiate(asteriodPrefabs[index], new Vector3(cam.transform.position.x + Random.Range(-width, width), 3, cam.transform.position.z + height + Random.Range(10, 30)), Quaternion.identity);
+        Instantiate(asteriodPrefabs[index], new Vector3(mainCamera.transform.position.x + Random.Range(-width, width), 3, mainCamera.transform.position.z + height + Random.Range(10, 30)), Quaternion.identity);
         if ( !startSpawning )
         {
             CancelInvoke("Spawning"); 

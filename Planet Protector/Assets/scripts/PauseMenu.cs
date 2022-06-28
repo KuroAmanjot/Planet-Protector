@@ -67,4 +67,6 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         playerHealth.retryMenu.SetActive(true);
     }
+
+   
 }
