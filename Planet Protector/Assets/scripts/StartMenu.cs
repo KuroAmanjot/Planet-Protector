@@ -6,15 +6,24 @@ using UnityEngine.SceneManagement;
 
 public class StartMenu : MonoBehaviour
 {
+    private void Start()
+    {
+        AudioManager.soundsInstance.PlayMusic(1);
+    }
 
-   
 
-    public void StartGame()
+    public void StartGame1()
     {
         SceneManager.LoadScene(1);
         
     
-    } 
+    }
+    public void StartGame()
+    {
+        SceneManager.LoadScene(2);
+
+
+    }
 
     public void SettingMenu()
     {
@@ -28,6 +37,8 @@ public class StartMenu : MonoBehaviour
         Application.Quit();
         print("quit"); 
     }
+
+
 
 
 }

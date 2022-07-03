@@ -10,7 +10,7 @@ public class Score : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-
+        AudioManager.soundsInstance.PlayMusic(2); 
         scoreTotal = 0; 
         
     }

@@ -20,13 +20,15 @@ public class AsteriodDestroy : MonoBehaviour
             Destroy(gameObject);
             GameObject effectExplode = Instantiate(explosion , transform.position, Quaternion.identity);
             Destroy(effectExplode, 1f );
-            Score.scoreTotal += 5; 
+            Score.scoreTotal += 5;
+            AudioManager.soundsInstance.PlaySFX(2);
         }
         if (collision.gameObject.tag == " player")
         {
             Destroy(gameObject);
             GameObject effectExplode = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(effectExplode, 1f);
+            AudioManager.soundsInstance.PlaySFX(2);
         }
 
         if (collision.gameObject.tag == "planet")
@@ -35,6 +37,7 @@ public class AsteriodDestroy : MonoBehaviour
             Destroy(gameObject);
             GameObject effectExplode = Instantiate(explosion, transform.position, Quaternion.identity);
             Destroy(effectExplode, 1f);
+            AudioManager.soundsInstance.PlaySFX(2);
 
         }
 
